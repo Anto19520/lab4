@@ -1,0 +1,64 @@
+#header {
+  position: static;
+  margin: 0 auto;
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+  font-family: sans-serif;
+  background-color: #ccccb3;
+  height:100px;
+  border-radius: 25px;
+}
+#footer {
+  font-family: arial;
+  font-size:20px;
+}
+
+#heading {
+  position: static;
+  margin: 0 auto;
+  text-align: center;
+  color: red;
+  font-size: 30px;
+  font-family:arial;
+  }
+  P {
+    font-size:25px;
+  }
+
+.ImageRow {
+  margin:auto;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.ImageBox {
+  display: inline-block;
+  margin: 20px;
+  width: 400;
+  height: 450px;
+  border: 3px black solid;
+  padding: 15px 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-family: arial;
+  background-color:lightblue;
+}
+
+.ImageBox img {
+  width: 400px;
+  height: 400px;
+  margin:10px:
+  border: 2px;
+}
+
+@media screen and (max-width: 900px) {
+body {
+  background-color:lightgreen;
+}
+@media screen and (max-width: 700px) {
+  body {
+    background-color:lightblue;
+  }
+}
